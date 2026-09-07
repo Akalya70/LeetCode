@@ -6,9 +6,9 @@ class Solution {
                 num/=2;
             }else{
                 num-=1;
-            }count++;
+            }
+            count++;
         }
-
 return count;
 }  
   }
