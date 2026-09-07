@@ -3,8 +3,8 @@ class Solution {
       int gcdvalue=nums[0];
       for(int i=1;i<nums.length;i++){
         gcdvalue=gcd(gcdvalue,nums[i]);
-    
-      }return gcdvalue==1;
+      }
+        return gcdvalue==1;
 
     }
     public int gcd(int a, int b){
