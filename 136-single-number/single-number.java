@@ -15,6 +15,7 @@ class Solution
         }
         for(int res:set){
             return res;
-        }return-1;
+        }
+     return-1;
     }
 }
