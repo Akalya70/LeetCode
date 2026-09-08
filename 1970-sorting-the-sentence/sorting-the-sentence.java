@@ -1,5 +1,6 @@
 class Solution {
-    public String sortSentence(String s) {
+    public String sortSentence(String s)
+    {
         String[] words = s.split(" ");
         String[] sortedWords = new String[words.length];
 
