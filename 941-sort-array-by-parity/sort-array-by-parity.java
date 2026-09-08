@@ -1,5 +1,7 @@
-class Solution {
-    public int[] sortArrayByParity(int[] nums) {
+class Solution
+    {
+    public int[] sortArrayByParity(int[] nums) 
+    {
         int start=0;
         int end=nums.length-1;
         int res[]=new int[nums.length];
