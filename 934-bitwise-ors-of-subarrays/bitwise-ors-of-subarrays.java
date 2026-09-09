@@ -2,7 +2,6 @@ class Solution
 {
     public int subarrayBitwiseORs(int[] arr)
      {
-
     int n = arr.length;
     Set<Integer> distinctOrValues = new HashSet<>();
 
