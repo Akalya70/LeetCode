@@ -2,7 +2,7 @@ class Solution
 {
     public int smallestEvenMultiple(int n) 
     {
-        int result;
+    int result;
        if(n%2==0)
        {
         result=n;
