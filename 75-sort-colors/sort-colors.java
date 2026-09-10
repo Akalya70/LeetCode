@@ -1,4 +1,5 @@
-class Solution {
+class Solution 
+{
     public void sortColors(int[] nums) {
      int l=0,m=0,r=nums.length-1;
      while(m<=r){
