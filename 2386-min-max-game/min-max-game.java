@@ -1,4 +1,5 @@
-class Solution {
+class Solution 
+{
     public int minMaxGame(int[] nums) {
        int n=nums.length;
        while(n>1){
