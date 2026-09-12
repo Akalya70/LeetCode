@@ -1,6 +1,7 @@
 class Solution {
     public int countSegments(String s) {
-         if (s == null || s.length() == 0) {
+         if (s == null || s.length() == 0) 
+         {
             return 0;
         }
         int count = 0;
