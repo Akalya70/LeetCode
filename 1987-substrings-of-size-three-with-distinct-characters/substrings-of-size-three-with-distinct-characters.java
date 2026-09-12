@@ -1,4 +1,5 @@
-class Solution {
+class Solution 
+{
     public int countGoodSubstrings(String s) {
         int count=0;
         for(int i=0;i<s.length()-2;i++){
