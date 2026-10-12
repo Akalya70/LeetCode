@@ -1,0 +1,19 @@
+class Solution {
+    public boolean checkIfPangram(String sentence) {
+        sentence = sentence.toLowerCase();
+        boolean [] arr = new boolean[26];
+        for(int idx=0; idx<sentence.length(); idx++){
+            char ch = sentence.charAt(idx);
+            if(ch>='a'&&ch<='z'){
+                int i = ch - 'a';
+                arr[i] = true;
+            }
+        }
+        for(int idx=0; idx<arr.length; idx++){
+            if(arr[idx]==false){
+                return false;
+            }
+        }
+        return true;
+    }
+}
